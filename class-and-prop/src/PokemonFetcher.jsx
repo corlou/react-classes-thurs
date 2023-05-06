@@ -30,7 +30,7 @@ export default class PokemonFetcher extends React.Component {
   }
 
   componentWillUnmount() {
-    
+    console.log("PokemonFetcher is going away now")
   }
 
   render() {
